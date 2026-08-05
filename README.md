@@ -1,5 +1,7 @@
 # Octo Teacher
 
+[![CI](https://github.com/qq110571515/octo-teacher/actions/workflows/ci.yml/badge.svg)](https://github.com/qq110571515/octo-teacher/actions/workflows/ci.yml)
+
 Octo Teacher is an open-source family growth system that connects meaningful offline activity with healthier digital access. Children complete learning, creative, physical, and household tasks, earn growth points, and can exchange those points for bounded app-access windows.
 
 The project is early-stage software under active development. It is not a finished parental-control product and should not be treated as a substitute for attentive family decision-making.
