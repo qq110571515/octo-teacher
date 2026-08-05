@@ -1,0 +1,5 @@
+/* Generated from the reviewed OctoTeacher Xcode localization export. */
+"CFBundleDisplayName" = "Octo Teacher";
+"CFBundleName" = "Octo Teacher";
+"NSCameraUsageDescription" = "Kids can take a photo as proof of task completion; photos are stored locally only and never uploaded.";
+"NSMicrophoneUsageDescription" = "Kids can speak instead of typing to record task completion; recordings are used only for transcription and deleted immediately after.";

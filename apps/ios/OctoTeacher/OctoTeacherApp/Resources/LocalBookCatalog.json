@@ -1,0 +1,1145 @@
+{
+  "source": "Project Gutenberg public-domain/open distribution EPUBs",
+  "categories": [
+    {
+      "category": "字母启蒙",
+      "count": 6,
+      "books": [
+        {
+          "id": 10742,
+          "title": "The Picture Alphabet",
+          "file": "01_字母启蒙/01_pg10742_The_Picture_Alphabet.epub",
+          "url": "https://www.gutenberg.org/ebooks/10742"
+        },
+        {
+          "id": 15809,
+          "title": "A Apple Pie",
+          "file": "01_字母启蒙/02_pg15809_A_Apple_Pie.epub",
+          "url": "https://www.gutenberg.org/ebooks/15809"
+        },
+        {
+          "id": 22399,
+          "title": "The Fireside Picture Alphabet",
+          "file": "01_字母启蒙/03_pg22399_The_Fireside_Picture_Alphabet.epub",
+          "url": "https://www.gutenberg.org/ebooks/22399"
+        },
+        {
+          "id": 23483,
+          "title": "Dame Wonder's Picture Alphabet",
+          "file": "01_字母启蒙/04_pg23483_Dame_Wonder_s_Picture_Alphabet.epub",
+          "url": "https://www.gutenberg.org/ebooks/23483"
+        },
+        {
+          "id": 23619,
+          "title": "The Royal Picture Alphabet",
+          "file": "01_字母启蒙/05_pg23619_The_Royal_Picture_Alphabet.epub",
+          "url": "https://www.gutenberg.org/ebooks/23619"
+        },
+        {
+          "id": 36755,
+          "title": "The Child's Picture Book",
+          "file": "01_字母启蒙/06_pg36755_The_Child_s_Picture_Book.epub",
+          "url": "https://www.gutenberg.org/ebooks/36755"
+        }
+      ]
+    },
+    {
+      "category": "数字与数学启蒙",
+      "count": 6,
+      "books": [
+        {
+          "id": 23895,
+          "title": "The Buckle My Shoe Picture Book",
+          "file": "02_数字与数学启蒙/01_pg23895_The_Buckle_My_Shoe_Picture_Book.epub",
+          "url": "https://www.gutenberg.org/ebooks/23895"
+        },
+        {
+          "id": 14642,
+          "title": "McGuffey's Eclectic Primer",
+          "file": "02_数字与数学启蒙/02_pg14642_McGuffey_s_Eclectic_Primer.epub",
+          "url": "https://www.gutenberg.org/ebooks/14642"
+        },
+        {
+          "id": 14640,
+          "title": "McGuffey's First Eclectic Reader",
+          "file": "02_数字与数学启蒙/03_pg14640_McGuffey_s_First_Eclectic_Reader.epub",
+          "url": "https://www.gutenberg.org/ebooks/14640"
+        },
+        {
+          "id": 14668,
+          "title": "McGuffey's Second Eclectic Reader",
+          "file": "02_数字与数学启蒙/04_pg14668_McGuffey_s_Second_Eclectic_Reader.epub",
+          "url": "https://www.gutenberg.org/ebooks/14668"
+        },
+        {
+          "id": 14766,
+          "title": "McGuffey's Third Eclectic Reader",
+          "file": "02_数字与数学启蒙/05_pg14766_McGuffey_s_Third_Eclectic_Reader.epub",
+          "url": "https://www.gutenberg.org/ebooks/14766"
+        },
+        {
+          "id": 36755,
+          "title": "The Child's Picture Book",
+          "file": "02_数字与数学启蒙/06_pg36755_The_Child_s_Picture_Book.epub",
+          "url": "https://www.gutenberg.org/ebooks/36755"
+        }
+      ]
+    },
+    {
+      "category": "颜色与形状",
+      "count": 6,
+      "books": [
+        {
+          "id": 36755,
+          "title": "The Child's Picture Book",
+          "file": "03_颜色与形状/01_pg36755_The_Child_s_Picture_Book.epub",
+          "url": "https://www.gutenberg.org/ebooks/36755"
+        },
+        {
+          "id": 17782,
+          "title": "Animal Children",
+          "file": "03_颜色与形状/02_pg17782_Animal_Children.epub",
+          "url": "https://www.gutenberg.org/ebooks/17782"
+        },
+        {
+          "id": 29840,
+          "title": "A Nursery Rhyme Picture Book",
+          "file": "03_颜色与形状/03_pg29840_A_Nursery_Rhyme_Picture_Book.epub",
+          "url": "https://www.gutenberg.org/ebooks/29840"
+        },
+        {
+          "id": 23483,
+          "title": "Dame Wonder's Picture Alphabet",
+          "file": "03_颜色与形状/04_pg23483_Dame_Wonder_s_Picture_Alphabet.epub",
+          "url": "https://www.gutenberg.org/ebooks/23483"
+        },
+        {
+          "id": 23619,
+          "title": "The Royal Picture Alphabet",
+          "file": "03_颜色与形状/05_pg23619_The_Royal_Picture_Alphabet.epub",
+          "url": "https://www.gutenberg.org/ebooks/23619"
+        },
+        {
+          "id": 25359,
+          "title": "Boys and Girls Bookshelf, Volume I",
+          "file": "03_颜色与形状/06_pg25359_Boys_and_Girls_Bookshelf_Volume_I.epub",
+          "url": "https://www.gutenberg.org/ebooks/25359"
+        }
+      ]
+    },
+    {
+      "category": "儿歌童谣",
+      "count": 7,
+      "books": [
+        {
+          "id": 26197,
+          "title": "The Nursery Rhyme Book",
+          "file": "04_儿歌童谣/01_pg26197_The_Nursery_Rhyme_Book.epub",
+          "url": "https://www.gutenberg.org/ebooks/26197"
+        },
+        {
+          "id": 29840,
+          "title": "A Nursery Rhyme Picture Book",
+          "file": "04_儿歌童谣/02_pg29840_A_Nursery_Rhyme_Picture_Book.epub",
+          "url": "https://www.gutenberg.org/ebooks/29840"
+        },
+        {
+          "id": 61009,
+          "title": "Our Old Nursery Rhymes",
+          "file": "04_儿歌童谣/03_pg61009_Our_Old_Nursery_Rhymes.epub",
+          "url": "https://www.gutenberg.org/ebooks/61009"
+        },
+        {
+          "id": 25418,
+          "title": "The Baby's Opera",
+          "file": "04_儿歌童谣/04_pg25418_The_Baby_s_Opera.epub",
+          "url": "https://www.gutenberg.org/ebooks/25418"
+        },
+        {
+          "id": 25432,
+          "title": "The Baby's Bouquet",
+          "file": "04_儿歌童谣/05_pg25432_The_Baby_s_Bouquet.epub",
+          "url": "https://www.gutenberg.org/ebooks/25432"
+        },
+        {
+          "id": 23794,
+          "title": "Mother Goose or the Old Nursery Rhymes",
+          "file": "04_儿歌童谣/06_pg23794_Mother_Goose_or_the_Old_Nursery_Rhymes.epub",
+          "url": "https://www.gutenberg.org/ebooks/23794"
+        },
+        {
+          "id": 39784,
+          "title": "Mother Goose's Nursery Rhymes",
+          "file": "04_儿歌童谣/07_pg39784_Mother_Goose_s_Nursery_Rhymes.epub",
+          "url": "https://www.gutenberg.org/ebooks/39784"
+        }
+      ]
+    },
+    {
+      "category": "习惯养成绘本",
+      "count": 6,
+      "books": [
+        {
+          "id": 22197,
+          "title": "The Goody-Naughty Book",
+          "file": "05_习惯养成绘本/01_pg22197_The_Goody-Naughty_Book.epub",
+          "url": "https://www.gutenberg.org/ebooks/22197"
+        },
+        {
+          "id": 25359,
+          "title": "Boys and Girls Bookshelf, Volume I",
+          "file": "05_习惯养成绘本/02_pg25359_Boys_and_Girls_Bookshelf_Volume_I.epub",
+          "url": "https://www.gutenberg.org/ebooks/25359"
+        },
+        {
+          "id": 11339,
+          "title": "Aesop's Fables",
+          "file": "05_习惯养成绘本/03_pg11339_Aesop_s_Fables.epub",
+          "url": "https://www.gutenberg.org/ebooks/11339"
+        },
+        {
+          "id": 25433,
+          "title": "The Baby's Own Aesop",
+          "file": "05_习惯养成绘本/04_pg25433_The_Baby_s_Own_Aesop.epub",
+          "url": "https://www.gutenberg.org/ebooks/25433"
+        },
+        {
+          "id": 271,
+          "title": "Black Beauty",
+          "file": "05_习惯养成绘本/05_pg271_Black_Beauty.epub",
+          "url": "https://www.gutenberg.org/ebooks/271"
+        },
+        {
+          "id": 32662,
+          "title": "Eight Stories for Isabel",
+          "file": "05_习惯养成绘本/06_pg32662_Eight_Stories_for_Isabel.epub",
+          "url": "https://www.gutenberg.org/ebooks/32662"
+        }
+      ]
+    },
+    {
+      "category": "情绪管理绘本",
+      "count": 6,
+      "books": [
+        {
+          "id": 113,
+          "title": "The Secret Garden",
+          "file": "06_情绪管理绘本/01_pg113_The_Secret_Garden.epub",
+          "url": "https://www.gutenberg.org/ebooks/113"
+        },
+        {
+          "id": 45,
+          "title": "Anne of Green Gables",
+          "file": "06_情绪管理绘本/02_pg45_Anne_of_Green_Gables.epub",
+          "url": "https://www.gutenberg.org/ebooks/45"
+        },
+        {
+          "id": 37106,
+          "title": "Little Women",
+          "file": "06_情绪管理绘本/03_pg37106_Little_Women.epub",
+          "url": "https://www.gutenberg.org/ebooks/37106"
+        },
+        {
+          "id": 271,
+          "title": "Black Beauty",
+          "file": "06_情绪管理绘本/04_pg271_Black_Beauty.epub",
+          "url": "https://www.gutenberg.org/ebooks/271"
+        },
+        {
+          "id": 1874,
+          "title": "The Railway Children",
+          "file": "06_情绪管理绘本/05_pg1874_The_Railway_Children.epub",
+          "url": "https://www.gutenberg.org/ebooks/1874"
+        },
+        {
+          "id": 11,
+          "title": "Alice's Adventures in Wonderland",
+          "file": "06_情绪管理绘本/06_pg11_Alice_s_Adventures_in_Wonderland.epub",
+          "url": "https://www.gutenberg.org/ebooks/11"
+        }
+      ]
+    },
+    {
+      "category": "经典童话",
+      "count": 6,
+      "books": [
+        {
+          "id": 2591,
+          "title": "Grimms' Fairy Tales",
+          "file": "07_经典童话/01_pg2591_Grimms_Fairy_Tales.epub",
+          "url": "https://www.gutenberg.org/ebooks/2591"
+        },
+        {
+          "id": 1597,
+          "title": "Andersen's Fairy Tales",
+          "file": "07_经典童话/02_pg1597_Andersen_s_Fairy_Tales.epub",
+          "url": "https://www.gutenberg.org/ebooks/1597"
+        },
+        {
+          "id": 55,
+          "title": "The Wonderful Wizard of Oz",
+          "file": "07_经典童话/03_pg55_The_Wonderful_Wizard_of_Oz.epub",
+          "url": "https://www.gutenberg.org/ebooks/55"
+        },
+        {
+          "id": 500,
+          "title": "The Adventures of Pinocchio",
+          "file": "07_经典童话/04_pg500_The_Adventures_of_Pinocchio.epub",
+          "url": "https://www.gutenberg.org/ebooks/500"
+        },
+        {
+          "id": 28942,
+          "title": "The Junior Classics, Volume 1",
+          "file": "07_经典童话/05_pg28942_The_Junior_Classics_Volume_1.epub",
+          "url": "https://www.gutenberg.org/ebooks/28942"
+        },
+        {
+          "id": 23521,
+          "title": "The Sleeping Beauty Picture Book",
+          "file": "07_经典童话/06_pg23521_The_Sleeping_Beauty_Picture_Book.epub",
+          "url": "https://www.gutenberg.org/ebooks/23521"
+        }
+      ]
+    },
+    {
+      "category": "寓言与成语故事",
+      "count": 6,
+      "books": [
+        {
+          "id": 11339,
+          "title": "Aesop's Fables",
+          "file": "08_寓言与成语故事/01_pg11339_Aesop_s_Fables.epub",
+          "url": "https://www.gutenberg.org/ebooks/11339"
+        },
+        {
+          "id": 25433,
+          "title": "The Baby's Own Aesop",
+          "file": "08_寓言与成语故事/02_pg25433_The_Baby_s_Own_Aesop.epub",
+          "url": "https://www.gutenberg.org/ebooks/25433"
+        },
+        {
+          "id": 40134,
+          "title": "A Moral Alphabet",
+          "file": "08_寓言与成语故事/03_pg40134_A_Moral_Alphabet.epub",
+          "url": "https://www.gutenberg.org/ebooks/40134"
+        },
+        {
+          "id": 27175,
+          "title": "The Bad Child's Book of Beasts",
+          "file": "08_寓言与成语故事/04_pg27175_The_Bad_Child_s_Book_of_Beasts.epub",
+          "url": "https://www.gutenberg.org/ebooks/27175"
+        },
+        {
+          "id": 22197,
+          "title": "The Goody-Naughty Book",
+          "file": "08_寓言与成语故事/05_pg22197_The_Goody-Naughty_Book.epub",
+          "url": "https://www.gutenberg.org/ebooks/22197"
+        },
+        {
+          "id": 2591,
+          "title": "Grimms' Fairy Tales",
+          "file": "08_寓言与成语故事/06_pg2591_Grimms_Fairy_Tales.epub",
+          "url": "https://www.gutenberg.org/ebooks/2591"
+        }
+      ]
+    },
+    {
+      "category": "桥梁书（拼音_初级章节）",
+      "count": 7,
+      "books": [
+        {
+          "id": 14642,
+          "title": "McGuffey's Eclectic Primer",
+          "file": "09_桥梁书（拼音_初级章节）/01_pg14642_McGuffey_s_Eclectic_Primer.epub",
+          "url": "https://www.gutenberg.org/ebooks/14642"
+        },
+        {
+          "id": 14640,
+          "title": "McGuffey's First Eclectic Reader",
+          "file": "09_桥梁书（拼音_初级章节）/02_pg14640_McGuffey_s_First_Eclectic_Reader.epub",
+          "url": "https://www.gutenberg.org/ebooks/14640"
+        },
+        {
+          "id": 14668,
+          "title": "McGuffey's Second Eclectic Reader",
+          "file": "09_桥梁书（拼音_初级章节）/03_pg14668_McGuffey_s_Second_Eclectic_Reader.epub",
+          "url": "https://www.gutenberg.org/ebooks/14668"
+        },
+        {
+          "id": 14838,
+          "title": "The Tale of Peter Rabbit",
+          "file": "09_桥梁书（拼音_初级章节）/04_pg14838_The_Tale_of_Peter_Rabbit.epub",
+          "url": "https://www.gutenberg.org/ebooks/14838"
+        },
+        {
+          "id": 14407,
+          "title": "The Tale of Benjamin Bunny",
+          "file": "09_桥梁书（拼音_初级章节）/05_pg14407_The_Tale_of_Benjamin_Bunny.epub",
+          "url": "https://www.gutenberg.org/ebooks/14407"
+        },
+        {
+          "id": 14814,
+          "title": "The Tale of Jemima Puddle-Duck",
+          "file": "09_桥梁书（拼音_初级章节）/06_pg14814_The_Tale_of_Jemima_Puddle-Duck.epub",
+          "url": "https://www.gutenberg.org/ebooks/14814"
+        },
+        {
+          "id": 14872,
+          "title": "The Tale of Squirrel Nutkin",
+          "file": "09_桥梁书（拼音_初级章节）/07_pg14872_The_Tale_of_Squirrel_Nutkin.epub",
+          "url": "https://www.gutenberg.org/ebooks/14872"
+        }
+      ]
+    },
+    {
+      "category": "儿童文学经典",
+      "count": 7,
+      "books": [
+        {
+          "id": 11,
+          "title": "Alice's Adventures in Wonderland",
+          "file": "10_儿童文学经典/01_pg11_Alice_s_Adventures_in_Wonderland.epub",
+          "url": "https://www.gutenberg.org/ebooks/11"
+        },
+        {
+          "id": 45,
+          "title": "Anne of Green Gables",
+          "file": "10_儿童文学经典/02_pg45_Anne_of_Green_Gables.epub",
+          "url": "https://www.gutenberg.org/ebooks/45"
+        },
+        {
+          "id": 113,
+          "title": "The Secret Garden",
+          "file": "10_儿童文学经典/03_pg113_The_Secret_Garden.epub",
+          "url": "https://www.gutenberg.org/ebooks/113"
+        },
+        {
+          "id": 16,
+          "title": "Peter Pan",
+          "file": "10_儿童文学经典/04_pg16_Peter_Pan.epub",
+          "url": "https://www.gutenberg.org/ebooks/16"
+        },
+        {
+          "id": 236,
+          "title": "The Jungle Book",
+          "file": "10_儿童文学经典/05_pg236_The_Jungle_Book.epub",
+          "url": "https://www.gutenberg.org/ebooks/236"
+        },
+        {
+          "id": 1874,
+          "title": "The Railway Children",
+          "file": "10_儿童文学经典/06_pg1874_The_Railway_Children.epub",
+          "url": "https://www.gutenberg.org/ebooks/1874"
+        },
+        {
+          "id": 37106,
+          "title": "Little Women",
+          "file": "10_儿童文学经典/07_pg37106_Little_Women.epub",
+          "url": "https://www.gutenberg.org/ebooks/37106"
+        }
+      ]
+    },
+    {
+      "category": "科普百科",
+      "count": 6,
+      "books": [
+        {
+          "id": 58421,
+          "title": "The Child's Book of Nature",
+          "file": "11_科普百科/01_pg58421_The_Child_s_Book_of_Nature.epub",
+          "url": "https://www.gutenberg.org/ebooks/58421"
+        },
+        {
+          "id": 2441,
+          "title": "The Burgess Animal Book for Children",
+          "file": "11_科普百科/02_pg2441_The_Burgess_Animal_Book_for_Children.epub",
+          "url": "https://www.gutenberg.org/ebooks/2441"
+        },
+        {
+          "id": 32598,
+          "title": "Earth and Sky Every Child Should Know",
+          "file": "11_科普百科/03_pg32598_Earth_and_Sky_Every_Child_Should_Know.epub",
+          "url": "https://www.gutenberg.org/ebooks/32598"
+        },
+        {
+          "id": 25359,
+          "title": "Boys and Girls Bookshelf, Volume I",
+          "file": "11_科普百科/04_pg25359_Boys_and_Girls_Bookshelf_Volume_I.epub",
+          "url": "https://www.gutenberg.org/ebooks/25359"
+        },
+        {
+          "id": 25545,
+          "title": "Children's Literature: A Textbook of Sources",
+          "file": "11_科普百科/05_pg25545_Children_s_Literature_A_Textbook_of_Sources.epub",
+          "url": "https://www.gutenberg.org/ebooks/25545"
+        },
+        {
+          "id": 38013,
+          "title": "Animals of the Past",
+          "file": "11_科普百科/06_pg38013_Animals_of_the_Past.epub",
+          "url": "https://www.gutenberg.org/ebooks/38013"
+        }
+      ]
+    },
+    {
+      "category": "恐龙与自然",
+      "count": 7,
+      "books": [
+        {
+          "id": 38013,
+          "title": "Animals of the Past",
+          "file": "12_恐龙与自然/01_pg38013_Animals_of_the_Past.epub",
+          "url": "https://www.gutenberg.org/ebooks/38013"
+        },
+        {
+          "id": 19302,
+          "title": "Dinosaurs",
+          "file": "12_恐龙与自然/02_pg19302_Dinosaurs.epub",
+          "url": "https://www.gutenberg.org/ebooks/19302"
+        },
+        {
+          "id": 2441,
+          "title": "The Burgess Animal Book for Children",
+          "file": "12_恐龙与自然/03_pg2441_The_Burgess_Animal_Book_for_Children.epub",
+          "url": "https://www.gutenberg.org/ebooks/2441"
+        },
+        {
+          "id": 17782,
+          "title": "Animal Children",
+          "file": "12_恐龙与自然/04_pg17782_Animal_Children.epub",
+          "url": "https://www.gutenberg.org/ebooks/17782"
+        },
+        {
+          "id": 58421,
+          "title": "The Child's Book of Nature",
+          "file": "12_恐龙与自然/05_pg58421_The_Child_s_Book_of_Nature.epub",
+          "url": "https://www.gutenberg.org/ebooks/58421"
+        },
+        {
+          "id": 35002,
+          "title": "Among the Pond People",
+          "file": "12_恐龙与自然/06_pg35002_Among_the_Pond_People.epub",
+          "url": "https://www.gutenberg.org/ebooks/35002"
+        },
+        {
+          "id": 32598,
+          "title": "Earth and Sky Every Child Should Know",
+          "file": "12_恐龙与自然/07_pg32598_Earth_and_Sky_Every_Child_Should_Know.epub",
+          "url": "https://www.gutenberg.org/ebooks/32598"
+        }
+      ]
+    },
+    {
+      "category": "太空与宇宙",
+      "count": 7,
+      "books": [
+        {
+          "id": 28853,
+          "title": "The Children's Book of Stars",
+          "file": "13_太空与宇宙/01_pg28853_The_Children_s_Book_of_Stars.epub",
+          "url": "https://www.gutenberg.org/ebooks/28853"
+        },
+        {
+          "id": 20769,
+          "title": "A Field Book of the Stars",
+          "file": "13_太空与宇宙/02_pg20769_A_Field_Book_of_the_Stars.epub",
+          "url": "https://www.gutenberg.org/ebooks/20769"
+        },
+        {
+          "id": 45112,
+          "title": "Astronomy for Young Folks",
+          "file": "13_太空与宇宙/03_pg45112_Astronomy_for_Young_Folks.epub",
+          "url": "https://www.gutenberg.org/ebooks/45112"
+        },
+        {
+          "id": 60318,
+          "title": "Star-land",
+          "file": "13_太空与宇宙/04_pg60318_Star-land.epub",
+          "url": "https://www.gutenberg.org/ebooks/60318"
+        },
+        {
+          "id": 67234,
+          "title": "The Book of Stars",
+          "file": "13_太空与宇宙/05_pg67234_The_Book_of_Stars.epub",
+          "url": "https://www.gutenberg.org/ebooks/67234"
+        },
+        {
+          "id": 77004,
+          "title": "The Story of the Sun, Moon, and Stars",
+          "file": "13_太空与宇宙/06_pg77004_The_Story_of_the_Sun_Moon_and_Stars.epub",
+          "url": "https://www.gutenberg.org/ebooks/77004"
+        },
+        {
+          "id": 32598,
+          "title": "Earth and Sky Every Child Should Know",
+          "file": "13_太空与宇宙/07_pg32598_Earth_and_Sky_Every_Child_Should_Know.epub",
+          "url": "https://www.gutenberg.org/ebooks/32598"
+        }
+      ]
+    },
+    {
+      "category": "历史故事",
+      "count": 6,
+      "books": [
+        {
+          "id": 1837,
+          "title": "The Prince and the Pauper",
+          "file": "14_历史故事/01_pg1837_The_Prince_and_the_Pauper.epub",
+          "url": "https://www.gutenberg.org/ebooks/1837"
+        },
+        {
+          "id": 3725,
+          "title": "Famous Men of the Middle Ages",
+          "file": "14_历史故事/02_pg3725_Famous_Men_of_the_Middle_Ages.epub",
+          "url": "https://www.gutenberg.org/ebooks/3725"
+        },
+        {
+          "id": 15697,
+          "title": "True Stories of History and Biography",
+          "file": "14_历史故事/03_pg15697_True_Stories_of_History_and_Biography.epub",
+          "url": "https://www.gutenberg.org/ebooks/15697"
+        },
+        {
+          "id": 35331,
+          "title": "Stories of Great Men",
+          "file": "14_历史故事/04_pg35331_Stories_of_Great_Men.epub",
+          "url": "https://www.gutenberg.org/ebooks/35331"
+        },
+        {
+          "id": 27157,
+          "title": "Historic Boys",
+          "file": "14_历史故事/05_pg27157_Historic_Boys.epub",
+          "url": "https://www.gutenberg.org/ebooks/27157"
+        },
+        {
+          "id": 52400,
+          "title": "Famous Men of Ancient Times",
+          "file": "14_历史故事/06_pg52400_Famous_Men_of_Ancient_Times.epub",
+          "url": "https://www.gutenberg.org/ebooks/52400"
+        }
+      ]
+    },
+    {
+      "category": "人物传记",
+      "count": 7,
+      "books": [
+        {
+          "id": 9254,
+          "title": "Biographical Stories",
+          "file": "15_人物传记/01_pg9254_Biographical_Stories.epub",
+          "url": "https://www.gutenberg.org/ebooks/9254"
+        },
+        {
+          "id": 55353,
+          "title": "Boys Who Became Famous Men",
+          "file": "15_人物传记/02_pg55353_Boys_Who_Became_Famous_Men.epub",
+          "url": "https://www.gutenberg.org/ebooks/55353"
+        },
+        {
+          "id": 1815,
+          "title": "The Boys' Life of Abraham Lincoln",
+          "file": "15_人物传记/03_pg1815_The_Boys_Life_of_Abraham_Lincoln.epub",
+          "url": "https://www.gutenberg.org/ebooks/1815"
+        },
+        {
+          "id": 24354,
+          "title": "Historic Boyhoods",
+          "file": "15_人物传记/04_pg24354_Historic_Boyhoods.epub",
+          "url": "https://www.gutenberg.org/ebooks/24354"
+        },
+        {
+          "id": 27157,
+          "title": "Historic Boys",
+          "file": "15_人物传记/05_pg27157_Historic_Boys.epub",
+          "url": "https://www.gutenberg.org/ebooks/27157"
+        },
+        {
+          "id": 52400,
+          "title": "Famous Men of Ancient Times",
+          "file": "15_人物传记/06_pg52400_Famous_Men_of_Ancient_Times.epub",
+          "url": "https://www.gutenberg.org/ebooks/52400"
+        },
+        {
+          "id": 4367,
+          "title": "Personal Memoirs of U. S. Grant",
+          "file": "15_人物传记/07_pg4367_Personal_Memoirs_of_U._S._Grant.epub",
+          "url": "https://www.gutenberg.org/ebooks/4367"
+        }
+      ]
+    },
+    {
+      "category": "侦探与冒险",
+      "count": 7,
+      "books": [
+        {
+          "id": 1661,
+          "title": "The Adventures of Sherlock Holmes",
+          "file": "16_侦探与冒险/01_pg1661_The_Adventures_of_Sherlock_Holmes.epub",
+          "url": "https://www.gutenberg.org/ebooks/1661"
+        },
+        {
+          "id": 244,
+          "title": "A Study in Scarlet",
+          "file": "16_侦探与冒险/02_pg244_A_Study_in_Scarlet.epub",
+          "url": "https://www.gutenberg.org/ebooks/244"
+        },
+        {
+          "id": 120,
+          "title": "Treasure Island",
+          "file": "16_侦探与冒险/03_pg120_Treasure_Island.epub",
+          "url": "https://www.gutenberg.org/ebooks/120"
+        },
+        {
+          "id": 421,
+          "title": "Kidnapped",
+          "file": "16_侦探与冒险/04_pg421_Kidnapped.epub",
+          "url": "https://www.gutenberg.org/ebooks/421"
+        },
+        {
+          "id": 74,
+          "title": "The Adventures of Tom Sawyer",
+          "file": "16_侦探与冒险/05_pg74_The_Adventures_of_Tom_Sawyer.epub",
+          "url": "https://www.gutenberg.org/ebooks/74"
+        },
+        {
+          "id": 22163,
+          "title": "The Rover Boys on the Farm",
+          "file": "16_侦探与冒险/06_pg22163_The_Rover_Boys_on_the_Farm.epub",
+          "url": "https://www.gutenberg.org/ebooks/22163"
+        },
+        {
+          "id": 76,
+          "title": "Adventures of Huckleberry Finn",
+          "file": "16_侦探与冒险/07_pg76_Adventures_of_Huckleberry_Finn.epub",
+          "url": "https://www.gutenberg.org/ebooks/76"
+        }
+      ]
+    },
+    {
+      "category": "奇幻与魔法",
+      "count": 7,
+      "books": [
+        {
+          "id": 55,
+          "title": "The Wonderful Wizard of Oz",
+          "file": "17_奇幻与魔法/01_pg55_The_Wonderful_Wizard_of_Oz.epub",
+          "url": "https://www.gutenberg.org/ebooks/55"
+        },
+        {
+          "id": 11,
+          "title": "Alice's Adventures in Wonderland",
+          "file": "17_奇幻与魔法/02_pg11_Alice_s_Adventures_in_Wonderland.epub",
+          "url": "https://www.gutenberg.org/ebooks/11"
+        },
+        {
+          "id": 16,
+          "title": "Peter Pan",
+          "file": "17_奇幻与魔法/03_pg16_Peter_Pan.epub",
+          "url": "https://www.gutenberg.org/ebooks/16"
+        },
+        {
+          "id": 500,
+          "title": "The Adventures of Pinocchio",
+          "file": "17_奇幻与魔法/04_pg500_The_Adventures_of_Pinocchio.epub",
+          "url": "https://www.gutenberg.org/ebooks/500"
+        },
+        {
+          "id": 236,
+          "title": "The Jungle Book",
+          "file": "17_奇幻与魔法/05_pg236_The_Jungle_Book.epub",
+          "url": "https://www.gutenberg.org/ebooks/236"
+        },
+        {
+          "id": 2781,
+          "title": "Just So Stories",
+          "file": "17_奇幻与魔法/06_pg2781_Just_So_Stories.epub",
+          "url": "https://www.gutenberg.org/ebooks/2781"
+        },
+        {
+          "id": 2591,
+          "title": "Grimms' Fairy Tales",
+          "file": "17_奇幻与魔法/07_pg2591_Grimms_Fairy_Tales.epub",
+          "url": "https://www.gutenberg.org/ebooks/2591"
+        }
+      ]
+    },
+    {
+      "category": "科幻",
+      "count": 6,
+      "books": [
+        {
+          "id": 84,
+          "title": "Frankenstein",
+          "file": "18_科幻/01_pg84_Frankenstein.epub",
+          "url": "https://www.gutenberg.org/ebooks/84"
+        },
+        {
+          "id": 36,
+          "title": "The War of the Worlds",
+          "file": "18_科幻/02_pg36_The_War_of_the_Worlds.epub",
+          "url": "https://www.gutenberg.org/ebooks/36"
+        },
+        {
+          "id": 35,
+          "title": "The Time Machine",
+          "file": "18_科幻/03_pg35_The_Time_Machine.epub",
+          "url": "https://www.gutenberg.org/ebooks/35"
+        },
+        {
+          "id": 5230,
+          "title": "The Invisible Man",
+          "file": "18_科幻/04_pg5230_The_Invisible_Man.epub",
+          "url": "https://www.gutenberg.org/ebooks/5230"
+        },
+        {
+          "id": 159,
+          "title": "The Island of Doctor Moreau",
+          "file": "18_科幻/05_pg159_The_Island_of_Doctor_Moreau.epub",
+          "url": "https://www.gutenberg.org/ebooks/159"
+        },
+        {
+          "id": 126,
+          "title": "The Poison Belt",
+          "file": "18_科幻/06_pg126_The_Poison_Belt.epub",
+          "url": "https://www.gutenberg.org/ebooks/126"
+        }
+      ]
+    },
+    {
+      "category": "诗歌与散文",
+      "count": 5,
+      "books": [
+        {
+          "id": 2620,
+          "title": "The Home Book of Verse, Volume 2",
+          "file": "19_诗歌与散文/01_pg2620_The_Home_Book_of_Verse_Volume_2.epub",
+          "url": "https://www.gutenberg.org/ebooks/2620"
+        },
+        {
+          "id": 25418,
+          "title": "The Baby's Opera",
+          "file": "19_诗歌与散文/02_pg25418_The_Baby_s_Opera.epub",
+          "url": "https://www.gutenberg.org/ebooks/25418"
+        },
+        {
+          "id": 25432,
+          "title": "The Baby's Bouquet",
+          "file": "19_诗歌与散文/03_pg25432_The_Baby_s_Bouquet.epub",
+          "url": "https://www.gutenberg.org/ebooks/25432"
+        },
+        {
+          "id": 26197,
+          "title": "The Nursery Rhyme Book",
+          "file": "19_诗歌与散文/04_pg26197_The_Nursery_Rhyme_Book.epub",
+          "url": "https://www.gutenberg.org/ebooks/26197"
+        },
+        {
+          "id": 1597,
+          "title": "Andersen's Fairy Tales",
+          "file": "19_诗歌与散文/05_pg1597_Andersen_s_Fairy_Tales.epub",
+          "url": "https://www.gutenberg.org/ebooks/1597"
+        }
+      ]
+    },
+    {
+      "category": "英语分级阅读",
+      "count": 6,
+      "books": [
+        {
+          "id": 14642,
+          "title": "McGuffey's Eclectic Primer",
+          "file": "20_英语分级阅读/01_pg14642_McGuffey_s_Eclectic_Primer.epub",
+          "url": "https://www.gutenberg.org/ebooks/14642"
+        },
+        {
+          "id": 14640,
+          "title": "McGuffey's First Eclectic Reader",
+          "file": "20_英语分级阅读/02_pg14640_McGuffey_s_First_Eclectic_Reader.epub",
+          "url": "https://www.gutenberg.org/ebooks/14640"
+        },
+        {
+          "id": 14668,
+          "title": "McGuffey's Second Eclectic Reader",
+          "file": "20_英语分级阅读/03_pg14668_McGuffey_s_Second_Eclectic_Reader.epub",
+          "url": "https://www.gutenberg.org/ebooks/14668"
+        },
+        {
+          "id": 14766,
+          "title": "McGuffey's Third Eclectic Reader",
+          "file": "20_英语分级阅读/04_pg14766_McGuffey_s_Third_Eclectic_Reader.epub",
+          "url": "https://www.gutenberg.org/ebooks/14766"
+        },
+        {
+          "id": 14880,
+          "title": "McGuffey's Fourth Eclectic Reader",
+          "file": "20_英语分级阅读/05_pg14880_McGuffey_s_Fourth_Eclectic_Reader.epub",
+          "url": "https://www.gutenberg.org/ebooks/14880"
+        },
+        {
+          "id": 15040,
+          "title": "McGuffey's Fifth Eclectic Reader",
+          "file": "20_英语分级阅读/06_pg15040_McGuffey_s_Fifth_Eclectic_Reader.epub",
+          "url": "https://www.gutenberg.org/ebooks/15040"
+        }
+      ]
+    },
+    {
+      "category": "漫画科普",
+      "count": 6,
+      "books": [
+        {
+          "id": 32598,
+          "title": "Earth and Sky Every Child Should Know",
+          "file": "21_漫画科普/01_pg32598_Earth_and_Sky_Every_Child_Should_Know.epub",
+          "url": "https://www.gutenberg.org/ebooks/32598"
+        },
+        {
+          "id": 28853,
+          "title": "The Children's Book of Stars",
+          "file": "21_漫画科普/02_pg28853_The_Children_s_Book_of_Stars.epub",
+          "url": "https://www.gutenberg.org/ebooks/28853"
+        },
+        {
+          "id": 67234,
+          "title": "The Book of Stars",
+          "file": "21_漫画科普/03_pg67234_The_Book_of_Stars.epub",
+          "url": "https://www.gutenberg.org/ebooks/67234"
+        },
+        {
+          "id": 38013,
+          "title": "Animals of the Past",
+          "file": "21_漫画科普/04_pg38013_Animals_of_the_Past.epub",
+          "url": "https://www.gutenberg.org/ebooks/38013"
+        },
+        {
+          "id": 19302,
+          "title": "Dinosaurs",
+          "file": "21_漫画科普/05_pg19302_Dinosaurs.epub",
+          "url": "https://www.gutenberg.org/ebooks/19302"
+        },
+        {
+          "id": 58421,
+          "title": "The Child's Book of Nature",
+          "file": "21_漫画科普/06_pg58421_The_Child_s_Book_of_Nature.epub",
+          "url": "https://www.gutenberg.org/ebooks/58421"
+        }
+      ]
+    },
+    {
+      "category": "心理与成长",
+      "count": 6,
+      "books": [
+        {
+          "id": 45,
+          "title": "Anne of Green Gables",
+          "file": "22_心理与成长/01_pg45_Anne_of_Green_Gables.epub",
+          "url": "https://www.gutenberg.org/ebooks/45"
+        },
+        {
+          "id": 37106,
+          "title": "Little Women",
+          "file": "22_心理与成长/02_pg37106_Little_Women.epub",
+          "url": "https://www.gutenberg.org/ebooks/37106"
+        },
+        {
+          "id": 113,
+          "title": "The Secret Garden",
+          "file": "22_心理与成长/03_pg113_The_Secret_Garden.epub",
+          "url": "https://www.gutenberg.org/ebooks/113"
+        },
+        {
+          "id": 22197,
+          "title": "The Goody-Naughty Book",
+          "file": "22_心理与成长/04_pg22197_The_Goody-Naughty_Book.epub",
+          "url": "https://www.gutenberg.org/ebooks/22197"
+        },
+        {
+          "id": 271,
+          "title": "Black Beauty",
+          "file": "22_心理与成长/05_pg271_Black_Beauty.epub",
+          "url": "https://www.gutenberg.org/ebooks/271"
+        },
+        {
+          "id": 55353,
+          "title": "Boys Who Became Famous Men",
+          "file": "22_心理与成长/06_pg55353_Boys_Who_Became_Famous_Men.epub",
+          "url": "https://www.gutenberg.org/ebooks/55353"
+        }
+      ]
+    },
+    {
+      "category": "安全与自我保护",
+      "count": 7,
+      "books": [
+        {
+          "id": 29260,
+          "title": "Sure Pop and the Safety Scouts",
+          "file": "23_安全与自我保护/01_pg29260_Sure_Pop_and_the_Safety_Scouts.epub",
+          "url": "https://www.gutenberg.org/ebooks/29260"
+        },
+        {
+          "id": 25646,
+          "title": "Child's Health Primer",
+          "file": "23_安全与自我保护/02_pg25646_Child_s_Health_Primer.epub",
+          "url": "https://www.gutenberg.org/ebooks/25646"
+        },
+        {
+          "id": 70116,
+          "title": "The Safety First Club fights fire",
+          "file": "23_安全与自我保护/03_pg70116_The_Safety_First_Club_fights_fire.epub",
+          "url": "https://www.gutenberg.org/ebooks/70116"
+        },
+        {
+          "id": 55684,
+          "title": "Firebrands",
+          "file": "23_安全与自我保护/04_pg55684_Firebrands.epub",
+          "url": "https://www.gutenberg.org/ebooks/55684"
+        },
+        {
+          "id": 69935,
+          "title": "The Safety First Club",
+          "file": "23_安全与自我保护/05_pg69935_The_Safety_First_Club.epub",
+          "url": "https://www.gutenberg.org/ebooks/69935"
+        },
+        {
+          "id": 64566,
+          "title": "The Safety First Club and the Flood",
+          "file": "23_安全与自我保护/06_pg64566_The_Safety_First_Club_and_the_Flood.epub",
+          "url": "https://www.gutenberg.org/ebooks/64566"
+        },
+        {
+          "id": 32662,
+          "title": "Eight Stories for Isabel",
+          "file": "23_安全与自我保护/07_pg32662_Eight_Stories_for_Isabel.epub",
+          "url": "https://www.gutenberg.org/ebooks/32662"
+        }
+      ]
+    },
+    {
+      "category": "传统文化与节日",
+      "count": 6,
+      "books": [
+        {
+          "id": 2591,
+          "title": "Grimms' Fairy Tales",
+          "file": "24_传统文化与节日/01_pg2591_Grimms_Fairy_Tales.epub",
+          "url": "https://www.gutenberg.org/ebooks/2591"
+        },
+        {
+          "id": 1597,
+          "title": "Andersen's Fairy Tales",
+          "file": "24_传统文化与节日/02_pg1597_Andersen_s_Fairy_Tales.epub",
+          "url": "https://www.gutenberg.org/ebooks/1597"
+        },
+        {
+          "id": 11339,
+          "title": "Aesop's Fables",
+          "file": "24_传统文化与节日/03_pg11339_Aesop_s_Fables.epub",
+          "url": "https://www.gutenberg.org/ebooks/11339"
+        },
+        {
+          "id": 3725,
+          "title": "Famous Men of the Middle Ages",
+          "file": "24_传统文化与节日/04_pg3725_Famous_Men_of_the_Middle_Ages.epub",
+          "url": "https://www.gutenberg.org/ebooks/3725"
+        },
+        {
+          "id": 15697,
+          "title": "True Stories of History and Biography",
+          "file": "24_传统文化与节日/05_pg15697_True_Stories_of_History_and_Biography.epub",
+          "url": "https://www.gutenberg.org/ebooks/15697"
+        },
+        {
+          "id": 52400,
+          "title": "Famous Men of Ancient Times",
+          "file": "24_传统文化与节日/06_pg52400_Famous_Men_of_Ancient_Times.epub",
+          "url": "https://www.gutenberg.org/ebooks/52400"
+        }
+      ]
+    },
+    {
+      "category": "艺术与音乐启蒙",
+      "count": 5,
+      "books": [
+        {
+          "id": 35157,
+          "title": "Handel",
+          "file": "25_艺术与音乐启蒙/01_pg35157_Handel.epub",
+          "url": "https://www.gutenberg.org/ebooks/35157"
+        },
+        {
+          "id": 20293,
+          "title": "A Popular History of the Art of Music",
+          "file": "25_艺术与音乐启蒙/02_pg20293_A_Popular_History_of_the_Art_of_Music.epub",
+          "url": "https://www.gutenberg.org/ebooks/20293"
+        },
+        {
+          "id": 55353,
+          "title": "Boys Who Became Famous Men",
+          "file": "25_艺术与音乐启蒙/03_pg55353_Boys_Who_Became_Famous_Men.epub",
+          "url": "https://www.gutenberg.org/ebooks/55353"
+        },
+        {
+          "id": 9254,
+          "title": "Biographical Stories",
+          "file": "25_艺术与音乐启蒙/04_pg9254_Biographical_Stories.epub",
+          "url": "https://www.gutenberg.org/ebooks/9254"
+        },
+        {
+          "id": 11,
+          "title": "Alice's Adventures in Wonderland",
+          "file": "25_艺术与音乐启蒙/05_pg11_Alice_s_Adventures_in_Wonderland.epub",
+          "url": "https://www.gutenberg.org/ebooks/11"
+        }
+      ]
+    },
+    {
+      "category": "青少年小说",
+      "count": 7,
+      "books": [
+        {
+          "id": 45,
+          "title": "Anne of Green Gables",
+          "file": "26_青少年小说/01_pg45_Anne_of_Green_Gables.epub",
+          "url": "https://www.gutenberg.org/ebooks/45"
+        },
+        {
+          "id": 37106,
+          "title": "Little Women",
+          "file": "26_青少年小说/02_pg37106_Little_Women.epub",
+          "url": "https://www.gutenberg.org/ebooks/37106"
+        },
+        {
+          "id": 74,
+          "title": "The Adventures of Tom Sawyer",
+          "file": "26_青少年小说/03_pg74_The_Adventures_of_Tom_Sawyer.epub",
+          "url": "https://www.gutenberg.org/ebooks/74"
+        },
+        {
+          "id": 76,
+          "title": "Adventures of Huckleberry Finn",
+          "file": "26_青少年小说/04_pg76_Adventures_of_Huckleberry_Finn.epub",
+          "url": "https://www.gutenberg.org/ebooks/76"
+        },
+        {
+          "id": 120,
+          "title": "Treasure Island",
+          "file": "26_青少年小说/05_pg120_Treasure_Island.epub",
+          "url": "https://www.gutenberg.org/ebooks/120"
+        },
+        {
+          "id": 421,
+          "title": "Kidnapped",
+          "file": "26_青少年小说/06_pg421_Kidnapped.epub",
+          "url": "https://www.gutenberg.org/ebooks/421"
+        },
+        {
+          "id": 209,
+          "title": "The Turn of the Screw",
+          "file": "26_青少年小说/07_pg209_The_Turn_of_the_Screw.epub",
+          "url": "https://www.gutenberg.org/ebooks/209"
+        }
+      ]
+    }
+  ]
+}

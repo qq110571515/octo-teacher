@@ -1,0 +1,692 @@
+.siteShell {
+  min-height: 100vh;
+  background: #ffffff;
+  color: #151515;
+}
+
+.header {
+  height: 72px;
+  padding: 0 5vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 28px;
+  border-bottom: 1px solid #dcdcdc;
+  background: #ffffff;
+}
+
+.brand {
+  min-width: max-content;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #151515;
+  font-size: 17px;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.brand img {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+}
+
+.nav a,
+.footerLinks a {
+  color: #4d4d4d;
+  font-size: 13px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.nav a:hover,
+.footerLinks a:hover {
+  color: #047d83;
+}
+
+.headerActions,
+.heroActions,
+.contributeActions,
+.footerLinks {
+  display: flex;
+  align-items: center;
+}
+
+.headerActions {
+  gap: 10px;
+}
+
+.iconLink {
+  width: 40px;
+  height: 40px;
+  display: grid;
+  place-items: center;
+  border: 1px solid #cfcfcf;
+  color: #151515;
+}
+
+.consoleButton,
+.primaryAction,
+.secondaryAction,
+.textLink {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.consoleButton {
+  min-height: 40px;
+  padding: 0 15px;
+  background: #151515;
+  color: #ffffff;
+  font-size: 13px;
+}
+
+.hero {
+  position: relative;
+  min-height: min(720px, calc(100svh - 126px));
+  overflow: hidden;
+  border-bottom: 1px solid #dcdcdc;
+  background: #f3f5f4;
+}
+
+.heroVisual {
+  position: absolute;
+  inset: 0;
+  background-image: url("/brand/octo-teacher-logo.png");
+  background-repeat: no-repeat;
+  background-position: calc(100% - 5vw) center;
+  background-size: min(49vw, 660px);
+}
+
+.heroInner {
+  position: relative;
+  z-index: 1;
+  width: min(1200px, 90vw);
+  min-height: inherit;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.heroCopy {
+  width: 57%;
+  max-width: 690px;
+  padding: 54px 0;
+}
+
+.eyebrow {
+  color: #047d83;
+  font-size: 12px;
+  font-weight: 900;
+}
+
+.hero h1 {
+  margin: 14px 0 20px;
+  font-size: 78px;
+  line-height: 0.98;
+}
+
+.heroLead {
+  max-width: 680px;
+  color: #202020;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.35;
+}
+
+.heroDetail {
+  max-width: 610px;
+  margin-top: 18px;
+  color: #555b59;
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+.heroActions {
+  margin-top: 32px;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.primaryAction,
+.secondaryAction {
+  min-height: 48px;
+  padding: 0 18px;
+  font-size: 14px;
+}
+
+.primaryAction {
+  background: #151515;
+  color: #ffffff;
+}
+
+.secondaryAction {
+  border: 1px solid #aeb4b1;
+  background: #ffffff;
+  color: #1c2622;
+}
+
+.signalBand {
+  min-height: 118px;
+  padding: 0 5vw;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: stretch;
+  background: #ffcb22;
+}
+
+.signalBand div {
+  min-width: 0;
+  padding: 26px 4vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-right: 1px solid rgba(21, 21, 21, 0.28);
+}
+
+.signalBand div:first-child {
+  padding-left: 0;
+}
+
+.signalBand div:last-child {
+  border-right: 0;
+}
+
+.signalBand strong,
+.signalBand span {
+  display: block;
+}
+
+.signalBand strong {
+  font-size: 19px;
+}
+
+.signalBand span {
+  margin-top: 5px;
+  color: #443a13;
+  font-size: 12px;
+}
+
+.principles,
+.realitySection {
+  width: min(1200px, 90vw);
+  margin: 0 auto;
+  padding: 112px 0;
+}
+
+.sectionIntro {
+  max-width: 760px;
+}
+
+.sectionIntro h2,
+.architectureHeading h2,
+.contributeBand h2 {
+  margin-top: 13px;
+  font-size: 46px;
+  line-height: 1.08;
+}
+
+.sectionIntro > p:last-child,
+.architectureHeading > p:last-child,
+.contributeBand > div > p:last-child {
+  margin-top: 20px;
+  color: #5a605d;
+  font-size: 17px;
+  line-height: 1.7;
+}
+
+.pillarGrid {
+  margin-top: 70px;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  border-top: 1px solid #bfc5c2;
+}
+
+.pillarGrid article {
+  min-height: 260px;
+  padding: 34px 34px 24px 0;
+  border-right: 1px solid #d6dad8;
+}
+
+.pillarGrid article + article {
+  padding-left: 34px;
+}
+
+.pillarGrid article:last-child {
+  border-right: 0;
+}
+
+.pillarGrid svg {
+  color: #f04e24;
+}
+
+.pillarGrid h3,
+.architectureGrid h3 {
+  margin-top: 40px;
+  font-size: 22px;
+}
+
+.pillarGrid p,
+.architectureGrid p {
+  margin-top: 13px;
+  color: #5b615e;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.architectureBand {
+  background: #151515;
+  color: #ffffff;
+}
+
+.architectureInner {
+  width: min(1200px, 90vw);
+  margin: 0 auto;
+  padding: 104px 0;
+}
+
+.architectureHeading {
+  max-width: 760px;
+}
+
+.architectureHeading .eyebrow {
+  color: #23c3c8;
+}
+
+.architectureHeading > p:last-child {
+  color: #aeb7b3;
+}
+
+.architectureGrid {
+  margin-top: 64px;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  border-top: 1px solid #4c4c4c;
+  border-bottom: 1px solid #4c4c4c;
+}
+
+.architectureGrid article {
+  position: relative;
+  min-height: 300px;
+  padding: 32px 28px 26px;
+  border-right: 1px solid #4c4c4c;
+}
+
+.architectureGrid article:last-child {
+  border-right: 0;
+}
+
+.architectureGrid svg {
+  margin-top: 62px;
+  color: #ffcb22;
+}
+
+.architectureGrid p {
+  color: #aeb7b3;
+}
+
+.architectureIndex {
+  position: absolute;
+  top: 30px;
+  right: 26px;
+  color: #6f7472;
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.realitySection {
+  display: grid;
+  grid-template-columns: minmax(0, 0.85fr) minmax(480px, 1.15fr);
+  gap: 90px;
+  align-items: start;
+}
+
+.realityList {
+  border-top: 2px solid #151515;
+}
+
+.realityList > div {
+  min-height: 112px;
+  padding: 24px 0;
+  display: grid;
+  grid-template-columns: 30px 128px minmax(0, 1fr);
+  gap: 14px;
+  align-items: start;
+  border-bottom: 1px solid #d6dad8;
+}
+
+.realityList svg {
+  width: 22px;
+  height: 22px;
+  color: #0a999f;
+}
+
+.realityList strong {
+  font-size: 14px;
+}
+
+.realityList span {
+  color: #5b615e;
+  font-size: 13px;
+  line-height: 1.65;
+}
+
+.contributeBand {
+  min-height: 390px;
+  padding: 82px max(5vw, calc((100vw - 1200px) / 2));
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 70px;
+  align-items: center;
+  background: #f40fc1;
+  color: #151515;
+}
+
+.contributeBand > div:first-child {
+  max-width: 730px;
+}
+
+.contributeBand .eyebrow {
+  color: #151515;
+}
+
+.contributeBand > div > p:last-child {
+  color: #48113d;
+}
+
+.contributeActions {
+  flex-direction: column;
+  align-items: stretch;
+  gap: 17px;
+}
+
+.textLink {
+  color: #151515;
+  font-size: 14px;
+}
+
+.footer {
+  min-height: 150px;
+  padding: 35px 5vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+  background: #ffffff;
+}
+
+.footerBrand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.footerBrand strong,
+.footerBrand span {
+  display: block;
+}
+
+.footerBrand strong {
+  font-size: 14px;
+}
+
+.footerBrand span {
+  margin-top: 3px;
+  color: #777c79;
+  font-size: 11px;
+}
+
+.footerLinks {
+  gap: 24px;
+}
+
+@media (max-width: 980px) {
+  .nav {
+    display: none;
+  }
+
+  .hero {
+    min-height: 780px;
+  }
+
+  .heroVisual {
+    top: auto;
+    height: 470px;
+    background-position: center bottom;
+    background-size: 430px;
+    opacity: 0.38;
+  }
+
+  .heroInner {
+    align-items: flex-start;
+  }
+
+  .heroCopy {
+    width: 100%;
+    max-width: 700px;
+    padding-top: 76px;
+  }
+
+  .hero h1 {
+    font-size: 62px;
+  }
+
+  .heroDetail {
+    max-width: 560px;
+  }
+
+  .architectureGrid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .architectureGrid article:nth-child(2) {
+    border-right: 0;
+  }
+
+  .architectureGrid article:nth-child(-n + 2) {
+    border-bottom: 1px solid #4c4c4c;
+  }
+
+  .realitySection {
+    grid-template-columns: 1fr;
+    gap: 54px;
+  }
+
+  .contributeBand {
+    grid-template-columns: 1fr;
+    gap: 38px;
+  }
+
+  .contributeActions {
+    width: max-content;
+  }
+}
+
+@media (max-width: 680px) {
+  .header {
+    height: 64px;
+    padding: 0 18px;
+  }
+
+  .brand span {
+    font-size: 15px;
+  }
+
+  .brand img {
+    width: 36px;
+    height: 36px;
+  }
+
+  .iconLink {
+    display: none;
+  }
+
+  .consoleButton {
+    width: 42px;
+    min-width: 42px;
+    padding: 0;
+    font-size: 0;
+  }
+
+  .consoleButton svg {
+    width: 20px;
+    height: 20px;
+  }
+
+  .hero {
+    min-height: 740px;
+  }
+
+  .heroVisual {
+    height: 390px;
+    background-size: 360px;
+    opacity: 0.3;
+  }
+
+  .heroInner,
+  .principles,
+  .realitySection,
+  .architectureInner {
+    width: calc(100% - 36px);
+  }
+
+  .heroCopy {
+    padding-top: 56px;
+  }
+
+  .hero h1 {
+    font-size: 50px;
+  }
+
+  .heroLead {
+    font-size: 20px;
+  }
+
+  .heroDetail {
+    font-size: 14px;
+  }
+
+  .heroActions {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .primaryAction,
+  .secondaryAction {
+    width: 100%;
+  }
+
+  .signalBand {
+    min-height: 0;
+    padding: 0 18px;
+    grid-template-columns: 1fr;
+  }
+
+  .signalBand div,
+  .signalBand div:first-child {
+    min-height: 88px;
+    padding: 18px 0;
+    border-right: 0;
+    border-bottom: 1px solid rgba(21, 21, 21, 0.28);
+  }
+
+  .signalBand div:last-child {
+    border-bottom: 0;
+  }
+
+  .principles,
+  .realitySection {
+    padding: 78px 0;
+  }
+
+  .sectionIntro h2,
+  .architectureHeading h2,
+  .contributeBand h2 {
+    font-size: 36px;
+  }
+
+  .pillarGrid {
+    margin-top: 50px;
+    grid-template-columns: 1fr;
+  }
+
+  .pillarGrid article,
+  .pillarGrid article + article {
+    min-height: 0;
+    padding: 28px 0 34px;
+    border-right: 0;
+    border-bottom: 1px solid #d6dad8;
+  }
+
+  .pillarGrid article:last-child {
+    border-bottom: 0;
+  }
+
+  .pillarGrid h3 {
+    margin-top: 26px;
+  }
+
+  .architectureInner {
+    padding: 78px 0;
+  }
+
+  .architectureGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .architectureGrid article,
+  .architectureGrid article:nth-child(2) {
+    min-height: 235px;
+    border-right: 0;
+    border-bottom: 1px solid #4c4c4c;
+  }
+
+  .architectureGrid article:last-child {
+    border-bottom: 0;
+  }
+
+  .architectureGrid svg {
+    margin-top: 38px;
+  }
+
+  .realityList > div {
+    grid-template-columns: 28px minmax(0, 1fr);
+  }
+
+  .realityList span {
+    grid-column: 2;
+  }
+
+  .contributeBand {
+    min-height: 0;
+    padding: 70px 18px;
+  }
+
+  .contributeActions {
+    width: 100%;
+  }
+
+  .footer {
+    padding: 34px 18px;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .footerLinks {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+  }
+}

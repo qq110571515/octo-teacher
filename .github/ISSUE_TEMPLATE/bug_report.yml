@@ -1,0 +1,48 @@
+name: Bug report
+description: Report a reproducible Octo Teacher problem using synthetic or redacted data.
+title: "[Bug]: "
+labels: ["bug", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: Do not include child names, family exports, credentials, device identifiers, or unredacted screenshots.
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - iOS app
+        - Screen Time extensions
+        - Family Console
+        - Platform API
+        - Documentation
+    validations:
+      required: true
+  - type: textarea
+    id: behavior
+    attributes:
+      label: What happened?
+      description: Describe the expected and observed behavior.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction steps
+      placeholder: "1. ..."
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Include commit, device model, OS version, and Screen Time authorization state where relevant.
+    validations:
+      required: true
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Privacy check
+      options:
+        - label: I removed real child and family data, credentials, tokens, and device identifiers.
+          required: true

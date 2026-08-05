@@ -1,0 +1,5 @@
+/* 简体中文 InfoPlist 文案。 */
+"CFBundleDisplayName" = "章鱼老师";
+"CFBundleName" = "章鱼老师";
+"NSCameraUsageDescription" = "孩子可以拍照作为任务完成的证明；照片只保存在本机，绝不上传。";
+"NSMicrophoneUsageDescription" = "孩子可以用说话代替打字记录任务完成情况；录音只用于转写，转写后立即删除。";

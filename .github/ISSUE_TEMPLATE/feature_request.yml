@@ -1,0 +1,31 @@
+name: Feature request
+description: Propose a focused improvement to Octo Teacher.
+title: "[Proposal]: "
+labels: ["enhancement", "needs-triage"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What family or contributor problem should this solve?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed approach
+      description: Explain the smallest useful behavior and any alternatives considered.
+    validations:
+      required: true
+  - type: textarea
+    id: constraints
+    attributes:
+      label: Platform and privacy constraints
+      description: Note any Apple API, child privacy, migration, or deployment considerations.
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Privacy check
+      options:
+        - label: This proposal contains no real child or family data.
+          required: true

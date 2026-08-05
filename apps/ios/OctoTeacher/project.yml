@@ -1,0 +1,119 @@
+name: OctoTeacher
+options:
+  bundleIdPrefix: com.octoteacher
+  deploymentTarget:
+    iOS: "17.0"
+  createIntermediateGroups: true
+settings:
+  base:
+    SWIFT_VERSION: "6.0"
+    CURRENT_PROJECT_VERSION: "86"
+    MARKETING_VERSION: "0.19.0"
+packages:
+  ZIPFoundation:
+    url: https://github.com/weichsel/ZIPFoundation.git
+    from: 0.9.19
+targets:
+  OctoTeacher:
+    type: application
+    platform: iOS
+    sources:
+      - path: OctoTeacherApp
+    dependencies:
+      - package: ZIPFoundation
+      - target: OctoTeacherScreenTimeMonitor
+      - target: OctoTeacherShieldAction
+      - target: OctoTeacherShieldConfiguration
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.octoteacher.app
+        CODE_SIGN_ENTITLEMENTS: OctoTeacherApp/OctoTeacher.entitlements
+        GENERATE_INFOPLIST_FILE: false
+        INFOPLIST_FILE: OctoTeacherApp/Info.plist
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+      configs:
+        Debug:
+          CODE_SIGN_STYLE: Automatic
+        Release:
+          CODE_SIGN_STYLE: Automatic
+    scheme:
+      testTargets:
+        - OctoTeacherTests
+        - OctoTeacherUITests
+  OctoTeacherScreenTimeMonitor:
+    type: app-extension
+    platform: iOS
+    sources:
+      - path: OctoTeacherScreenTimeMonitor
+      - path: OctoTeacherApp/Core/ScreenTime/ScreenTimeSharedContract.swift
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.octoteacher.app.ScreenTimeMonitor
+        CODE_SIGN_ENTITLEMENTS: OctoTeacherScreenTimeMonitor/OctoTeacherScreenTimeMonitor.entitlements
+        GENERATE_INFOPLIST_FILE: false
+        INFOPLIST_FILE: OctoTeacherScreenTimeMonitor/Info.plist
+        SKIP_INSTALL: true
+      configs:
+        Debug:
+          CODE_SIGN_STYLE: Automatic
+        Release:
+          CODE_SIGN_STYLE: Automatic
+  OctoTeacherShieldAction:
+    type: app-extension
+    platform: iOS
+    sources:
+      - path: OctoTeacherShieldAction
+      - path: OctoTeacherApp/Core/ScreenTime/ScreenTimeSharedContract.swift
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.octoteacher.app.ShieldAction
+        CODE_SIGN_ENTITLEMENTS: OctoTeacherShieldAction/OctoTeacherShieldAction.entitlements
+        GENERATE_INFOPLIST_FILE: false
+        INFOPLIST_FILE: OctoTeacherShieldAction/Info.plist
+        SKIP_INSTALL: true
+      configs:
+        Debug:
+          CODE_SIGN_STYLE: Automatic
+        Release:
+          CODE_SIGN_STYLE: Automatic
+  OctoTeacherShieldConfiguration:
+    type: app-extension
+    platform: iOS
+    sources:
+      - path: OctoTeacherShieldConfiguration
+      - path: OctoTeacherApp/Core/ScreenTime/ScreenTimeSharedContract.swift
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.octoteacher.app.ShieldConfiguration
+        CODE_SIGN_ENTITLEMENTS: OctoTeacherShieldConfiguration/OctoTeacherShieldConfiguration.entitlements
+        GENERATE_INFOPLIST_FILE: false
+        INFOPLIST_FILE: OctoTeacherShieldConfiguration/Info.plist
+        SKIP_INSTALL: true
+      configs:
+        Debug:
+          CODE_SIGN_STYLE: Automatic
+        Release:
+          CODE_SIGN_STYLE: Automatic
+  OctoTeacherTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources:
+      - path: OctoTeacherTests
+    dependencies:
+      - target: OctoTeacher
+      - package: ZIPFoundation
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.octoteacher.app.tests
+        GENERATE_INFOPLIST_FILE: true
+  OctoTeacherUITests:
+    type: bundle.ui-testing
+    platform: iOS
+    sources:
+      - path: OctoTeacherUITests
+    dependencies:
+      - target: OctoTeacher
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.octoteacher.app.uitests
+        GENERATE_INFOPLIST_FILE: true

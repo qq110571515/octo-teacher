@@ -1,0 +1,80 @@
+{
+  "id": "reading-starter-v2",
+  "title": "《夏洛的网》共读计划",
+  "version": "2.0.0",
+  "packType": "learning",
+  "publisher": {
+    "role": "parent",
+    "displayName": "示例家长"
+  },
+  "region": "US",
+  "ageRange": {
+    "min": 7,
+    "max": 10
+  },
+  "rewardPolicy": {
+    "minutesPerSession": 20,
+    "unlockWindowMinutes": 30,
+    "dailyCapRef": "family_policy"
+  },
+  "tasks": [
+    {
+      "id": "reading-session-1",
+      "title": "阅读第 1-2 章",
+      "category": "learning",
+      "difficulty": "easy",
+      "rewardMinutes": 20,
+      "instructions": "读完后用自己的话说说发生了什么，可以打字也可以语音。",
+      "contentBlock": {
+        "type": "reading",
+        "bookRef": {
+          "title": "夏洛的网",
+          "author": "E. B. White",
+          "source": "physical"
+        },
+        "minMinutesPerSession": 30,
+        "chapterPlan": {
+          "generatedBy": "parent_manual",
+          "approvedBy": "parent",
+          "sessions": [
+            { "order": 1, "chapters": "第1-2章", "estimatedMinutes": 30 }
+          ]
+        }
+      },
+      "verification": {
+        "channel": "ai_assisted_parent_final",
+        "childInput": ["text", "voice_cloud_transcribed"],
+        "aiRubric": "复述情节、提到细节、说出感受",
+        "minConfidence": 0.6,
+        "fallback": "parent_review"
+      }
+    },
+    {
+      "id": "video-science-1",
+      "title": "看一个科学小视频",
+      "category": "learning",
+      "difficulty": "easy",
+      "rewardMinutes": 15,
+      "instructions": "看完后回答 3 个小问题。",
+      "contentBlock": {
+        "type": "video",
+        "videoRef": {
+          "platform": "youtube",
+          "videoId": "example-video-id",
+          "url": "https://www.youtube.com/watch?v=example-video-id",
+          "durationMinutes": 12
+        },
+        "safetyLabel": {
+          "moderationRequired": true,
+          "parentApprovalRequired": true
+        }
+      },
+      "verification": {
+        "channel": "ai_assisted_parent_final",
+        "childInput": ["text"],
+        "minConfidence": 0.6,
+        "fallback": "parent_review"
+      }
+    }
+  ]
+}

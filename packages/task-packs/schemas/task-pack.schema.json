@@ -1,0 +1,176 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://octoteacher.local/schemas/task-pack.schema.json",
+  "title": "OctoTeacher Task Pack",
+  "description": "v2 platform format. All v2 fields are optional so v1 packs remain valid. Blueprint: docs/modules/GROWTH_PACK_PLATFORM_UPGRADE.md",
+  "type": "object",
+  "required": ["id", "title", "version", "tasks"],
+  "properties": {
+    "id": { "type": "string" },
+    "title": { "type": "string" },
+    "version": { "type": "string" },
+    "packType": {
+      "type": "string",
+      "enum": [
+        "basic_habits",
+        "chores",
+        "learning",
+        "skill_extension",
+        "finance_literacy",
+        "creative_works",
+        "family_responsibility"
+      ]
+    },
+    "publisher": {
+      "type": "object",
+      "required": ["role"],
+      "properties": {
+        "role": {
+          "type": "string",
+          "enum": ["parent", "school", "expert", "creator", "official"]
+        },
+        "displayName": { "type": "string" }
+      }
+    },
+    "region": { "type": "string", "description": "ISO 3166-1 alpha-2, drives default external platforms" },
+    "ageRange": {
+      "type": "object",
+      "properties": {
+        "min": { "type": "integer", "minimum": 3 },
+        "max": { "type": "integer", "minimum": 3 }
+      }
+    },
+    "rewardPolicy": {
+      "type": "object",
+      "properties": {
+        "minutesPerSession": { "type": "integer", "minimum": 1, "maximum": 60 },
+        "unlockWindowMinutes": { "type": "integer", "enum": [15, 30, 45, 60] },
+        "dailyCapRef": { "type": "string", "const": "family_policy" }
+      }
+    },
+    "tasks": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "title", "category", "difficulty", "rewardMinutes"],
+        "properties": {
+          "id": { "type": "string" },
+          "title": { "type": "string" },
+          "category": { "type": "string" },
+          "difficulty": { "type": "string", "enum": ["easy", "medium", "hard"] },
+          "rewardMinutes": { "type": "integer", "minimum": 1, "maximum": 60 },
+          "instructions": { "type": "string" },
+          "adultSupervisionRequired": { "type": "boolean", "default": false },
+          "contentBlock": { "$ref": "#/$defs/contentBlock" },
+          "verification": { "$ref": "#/$defs/verificationRule" }
+        }
+      }
+    }
+  },
+  "$defs": {
+    "contentBlock": {
+      "type": "object",
+      "required": ["type"],
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "reading",
+            "video",
+            "creative",
+            "music",
+            "exercise",
+            "science",
+            "logic",
+            "writing",
+            "finance",
+            "family"
+          ]
+        },
+        "bookRef": {
+          "type": "object",
+          "required": ["title", "source"],
+          "properties": {
+            "title": { "type": "string" },
+            "author": { "type": "string" },
+            "isbn": { "type": "string" },
+            "source": {
+              "type": "string",
+              "enum": ["physical", "platform_link", "public_domain"]
+            },
+            "url": { "type": "string" }
+          }
+        },
+        "minMinutesPerSession": { "type": "integer", "minimum": 5, "maximum": 120 },
+        "chapterPlan": {
+          "type": "object",
+          "required": ["generatedBy", "approvedBy", "sessions"],
+          "properties": {
+            "generatedBy": { "type": "string", "enum": ["ai_draft", "parent_manual"] },
+            "approvedBy": { "type": "string", "const": "parent" },
+            "sessions": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "required": ["order", "chapters"],
+                "properties": {
+                  "order": { "type": "integer", "minimum": 1 },
+                  "chapters": { "type": "string" },
+                  "estimatedMinutes": { "type": "integer", "minimum": 5 }
+                }
+              }
+            }
+          }
+        },
+        "videoRef": {
+          "type": "object",
+          "required": ["platform", "url"],
+          "properties": {
+            "platform": { "type": "string", "examples": ["youtube", "bilibili"] },
+            "videoId": { "type": "string" },
+            "url": { "type": "string" },
+            "durationMinutes": { "type": "integer", "minimum": 1 }
+          }
+        },
+        "safetyLabel": {
+          "type": "object",
+          "properties": {
+            "moderationRequired": { "type": "boolean" },
+            "parentApprovalRequired": { "type": "boolean" }
+          }
+        },
+        "brief": { "type": "string", "description": "creative/science/writing prompt for the child" }
+      },
+      "allOf": [
+        {
+          "if": { "properties": { "type": { "const": "reading" } } },
+          "then": { "required": ["bookRef", "minMinutesPerSession"] }
+        },
+        {
+          "if": { "properties": { "type": { "const": "video" } } },
+          "then": { "required": ["videoRef", "safetyLabel"] }
+        }
+      ]
+    },
+    "verificationRule": {
+      "type": "object",
+      "required": ["channel"],
+      "properties": {
+        "channel": {
+          "type": "string",
+          "enum": ["parent", "ai_assisted_parent_final", "auto", "teacher", "mixed"]
+        },
+        "childInput": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": ["text", "voice_cloud_transcribed", "photo", "audio_local", "health_data"]
+          }
+        },
+        "aiRubric": { "type": "string" },
+        "minConfidence": { "type": "number", "minimum": 0, "maximum": 1 },
+        "fallback": { "type": "string", "const": "parent_review" }
+      }
+    }
+  }
+}

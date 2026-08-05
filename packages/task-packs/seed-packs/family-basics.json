@@ -1,0 +1,35 @@
+{
+  "id": "family-basics",
+  "title": "Family Basics",
+  "version": "0.1.0",
+  "ageRange": {
+    "min": 6,
+    "max": 14
+  },
+  "tasks": [
+    {
+      "id": "clean-desk-10",
+      "title": "Clean your desk for 10 minutes",
+      "category": "home",
+      "difficulty": "easy",
+      "rewardMinutes": 15,
+      "instructions": "Make the desk ready for reading or homework."
+    },
+    {
+      "id": "read-15",
+      "title": "Read for 15 minutes",
+      "category": "learning",
+      "difficulty": "easy",
+      "rewardMinutes": 15,
+      "instructions": "Read a book or assigned article, then write one thing you learned."
+    },
+    {
+      "id": "exercise-20",
+      "title": "Move your body for 20 minutes",
+      "category": "health",
+      "difficulty": "medium",
+      "rewardMinutes": 20,
+      "instructions": "Walk, stretch, play outside, or do a simple workout."
+    }
+  ]
+}
