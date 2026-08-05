@@ -7,15 +7,20 @@ import {
   Code2,
   Database,
   ExternalLink,
+  Globe2,
   GitFork,
+  GraduationCap,
   HeartHandshake,
   LayoutDashboard,
+  MessageSquareText,
   Server,
   ShieldCheck,
+  Sparkles,
   Smartphone,
   TimerReset,
   UsersRound,
 } from "lucide-react";
+import Guestbook from "./guestbook";
 import styles from "./open-source.module.css";
 
 const repositoryURL = "https://github.com/qq110571515/octo-teacher";
@@ -45,6 +50,29 @@ const architecture = [
   { icon: Database, label: "Postgres", detail: "Durable family state with scoped sessions, migrations, and row-level boundaries" },
 ];
 
+const transformations = [
+  {
+    from: "Passive consumption",
+    to: "Active growth",
+    body: "Learning, reading, movement, creativity, and real responsibility become visible parts of a child's digital life.",
+  },
+  {
+    from: "Endless entertainment",
+    to: "Earned recreation",
+    body: "Entertainment is not treated as forbidden. It becomes a healthy choice unlocked by meaningful effort and bounded by clear family rules.",
+  },
+  {
+    from: "Daily negotiation",
+    to: "Shared agreements",
+    body: "Parents set the boundaries, children understand the path, and the system applies the same transparent rules every day.",
+  },
+  {
+    from: "Screen time",
+    to: "Growth time",
+    body: "The question changes from how long a child used a phone to what that powerful device helped the child become.",
+  },
+];
+
 export default function Home() {
   return (
     <main className={styles.siteShell}>
@@ -54,9 +82,10 @@ export default function Home() {
           <span>Octo Teacher</span>
         </Link>
         <nav className={styles.nav} aria-label="Main navigation">
+          <a href="#vision">Vision</a>
           <a href="#principles">Principles</a>
           <a href="#architecture">Architecture</a>
-          <a href="#contribute">Contribute</a>
+          <a href="#guestbook">Guestbook</a>
         </nav>
         <div className={styles.headerActions}>
           <a className={styles.iconLink} href={repositoryURL} target="_blank" rel="noreferrer" aria-label="Open the Octo Teacher GitHub repository" title="GitHub repository">
@@ -75,10 +104,10 @@ export default function Home() {
             <p className={styles.eyebrow}>OPEN SOURCE FAMILY TECHNOLOGY</p>
             <h1>Octo Teacher</h1>
             <p className={styles.heroLead}>
-              A family growth system that turns learning, creativity, movement, and responsibility into healthy digital access.
+              We are building a future where a child&apos;s phone is no longer mainly an entertainment machine. It becomes a tool for learning, creativity, movement, responsibility, and human growth.
             </p>
             <p className={styles.heroDetail}>
-              Built in the open for families and developers who want child technology to be understandable, inspectable, and worth improving together.
+              Octo Teacher connects real-world progress with healthy digital choice. Children earn bounded access through meaningful action, families replace daily conflict with clear agreements, and an open-source community can improve the model for children everywhere.
             </p>
             <div className={styles.heroActions}>
               <a className={styles.primaryAction} href={repositoryURL} target="_blank" rel="noreferrer">
@@ -93,17 +122,46 @@ export default function Home() {
       </section>
 
       <section className={styles.signalBand} aria-label="Project status">
-        <div><strong>MIT</strong><span>Open-source license</span></div>
-        <div><strong>Swift + TypeScript</strong><span>Mobile, web, and API</span></div>
-        <div><strong>Early stage</strong><span>Real devices, evolving architecture</span></div>
+        <div><strong>A phone can teach</strong><span>Reframe the most influential device in childhood</span></div>
+        <div><strong>Growth earns choice</strong><span>Build agency instead of dependence</span></div>
+        <div><strong>Open to the world</strong><span>A public system families can inspect and improve</span></div>
+      </section>
+
+      <section className={styles.visionSection} id="vision">
+        <div className={styles.visionStatement}>
+          <p className={styles.eyebrow}>THE BIG IDEA</p>
+          <h2>Change what childhood screens are for.</h2>
+          <p className={styles.visionLead}>
+            Billions of childhood hours are being shaped by devices optimized to hold attention. Our ambition is to redirect that force: to make the phone a daily companion for curiosity, capability, health, contribution, and self-direction.
+          </p>
+          <p>
+            This is bigger than parental control. Octo Teacher imagines a new category of technology in which digital access supports development rather than competing with it. The long-term goal is to help change how children around the world use phones, how families talk about technology, and what the technology industry chooses to optimize for.
+          </p>
+        </div>
+        <div className={styles.visionCallout}>
+          <Globe2 size={32} aria-hidden="true" />
+          <strong>From attention extraction to human development.</strong>
+          <span>One family at a time, built openly enough to travel much further.</span>
+        </div>
+        <div className={styles.transformationGrid}>
+          {transformations.map((item, index) => (
+            <article key={item.from}>
+              <span className={styles.transformationIndex}>0{index + 1}</span>
+              <p className={styles.transformationFrom}>{item.from}</p>
+              <ArrowRight size={20} aria-hidden="true" />
+              <h3>{item.to}</h3>
+              <p>{item.body}</p>
+            </article>
+          ))}
+        </div>
       </section>
 
       <section className={styles.principles} id="principles">
         <div className={styles.sectionIntro}>
           <p className={styles.eyebrow}>WHY OPEN SOURCE</p>
-          <h2>Family technology should be inspectable.</h2>
+          <h2>A mission this important should be built in public.</h2>
           <p>
-            Screen-time products shape household rules and children&apos;s daily lives. Octo Teacher is opening its implementation so those decisions can be questioned, tested, and improved in public.
+            Technology that shapes children should not be a black box. Families, educators, researchers, designers, and developers should be able to question its assumptions, inspect its safeguards, test its effects, and improve it together.
           </p>
         </div>
         <div className={styles.pillarGrid}>
@@ -150,11 +208,51 @@ export default function Home() {
         </div>
       </section>
 
+      <section className={styles.founderBand} id="founder">
+        <div className={styles.founderIdentity}>
+          <span className={styles.founderMark}>LM</span>
+          <div>
+            <p className={styles.eyebrow}>FOUNDER AND MAINTAINER</p>
+            <h2>Leo Ma</h2>
+          </div>
+        </div>
+        <div className={styles.founderStory}>
+          <Sparkles size={27} aria-hidden="true" />
+          <p className={styles.founderLead}>
+            I want to contribute to American society by helping families raise more curious, capable, healthy, and responsible children.
+          </p>
+          <p>
+            America&apos;s future depends on people who can learn independently, create boldly, care for their communities, and use freedom with responsibility. If phones now shape a large part of childhood, then those devices should help cultivate these qualities instead of steadily weakening them.
+          </p>
+          <p>
+            Octo Teacher is my attempt to turn that belief into practical public infrastructure. I am opening the work because the problem is larger than one family, one company, or one developer. I hope families and builders across America can help prove a healthier model, then share it with the world.
+          </p>
+          <blockquote>
+            <GraduationCap size={26} aria-hidden="true" />
+            <span>Build technology that leaves children stronger than it found them.</span>
+          </blockquote>
+        </div>
+      </section>
+
+      <section className={styles.guestbookBand} id="guestbook">
+        <div className={styles.guestbookHeading}>
+          <div>
+            <p className={styles.eyebrow}>A PUBLIC CONVERSATION</p>
+            <h2>Leave a note for Leo.</h2>
+          </div>
+          <MessageSquareText size={34} aria-hidden="true" />
+        </div>
+        <p className={styles.guestbookIntro}>
+          Share a reaction, a hard question, or an idea for where Octo Teacher should go next. No account is required.
+        </p>
+        <Guestbook />
+      </section>
+
       <section className={styles.contributeBand} id="contribute">
         <div>
           <p className={styles.eyebrow}>BUILD IT WITH US</p>
-          <h2>Bring your scrutiny, not just your stars.</h2>
-          <p>Architecture review, iOS reliability work, accessibility, privacy analysis, documentation, and focused bug reports are all valuable contributions.</p>
+          <h2>Help build a healthier relationship between childhood and technology.</h2>
+          <p>Families, educators, child-development researchers, designers, privacy advocates, and engineers all have something essential to contribute. Bring your experience, your scrutiny, and your willingness to test the idea in the real world.</p>
         </div>
         <div className={styles.contributeActions}>
           <a className={styles.primaryAction} href={`${repositoryURL}/blob/main/CONTRIBUTING.md`} target="_blank" rel="noreferrer">

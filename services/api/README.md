@@ -75,6 +75,8 @@ npm run db:seed:marketplace --prefix services/api
 Run migrations and seeds only with a server-side `DATABASE_URL`. Never put that URL in the iOS app or source control.
 They are explicit one-time release operations and are intentionally not part of `vercel-build`, because Vercel may invoke the build command once per function.
 
+The public guestbook also requires `GUESTBOOK_CHALLENGE_SECRET`, a server-only random value of at least 32 characters. It signs short-lived, IP-bound browser challenges; raw IP addresses are never stored.
+
 Marketplace write endpoints additionally require all of these server-only variables:
 
 ```text
