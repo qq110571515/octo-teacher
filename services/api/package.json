@@ -12,7 +12,7 @@
     "db:seed:marketplace": "node scripts/seed-marketplace.mjs"
   },
   "devDependencies": {
-    "@types/node": "^22.10.2",
+    "@types/node": "^26.5.1",
     "typescript": "^5.9.3"
   },
   "dependencies": {
